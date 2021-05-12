@@ -53,6 +53,7 @@ body {
   animation-fill-mode: both;
   animation-delay: 2s;
   animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0.6, 1, 0.43);
 }
 
 .luigi {
@@ -70,7 +71,7 @@ body {
 
 @keyframes drive {
   from {
-    transform: translateX(-100px);
+    transform: translateX(-200px);
   }
   to {
     transform: translateX(100vw);
